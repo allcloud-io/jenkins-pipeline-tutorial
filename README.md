@@ -365,7 +365,8 @@ the change to Github and run the pipeline. If all goes well, after a short time 
 "Version" field change when refreshing your browser.
 
 > **Note:** Deploying a new version could take a few minutes, mainly because the default
-> [Deregistration Delay][20] is 5 minutes. You may reduce this timer to speed up deployments.
+> [Deregistration Delay][20] is 5 minutes. You may reduce this timer to speed up deployments, or
+> manually kill the old tasks.
 
 ## Cleaning Up
 
