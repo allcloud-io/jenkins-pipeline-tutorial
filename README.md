@@ -371,7 +371,7 @@ the change to Github and run the pipeline. If all goes well, after a short time 
 
 When you are done experimenting and would like to delete the environment, perform the following:
 
-1. Terminate the Jenkins instance.
+1. Terminate the Jenkins instance and delete its IAM role, security group and SSH key.
 2. On the [Clusters view][21] of the ECS console, choose your cluster, click **Delete Cluster** and
 then **Delete**. This will delete everything Fargate has created for you including the VPC and the
 load balancer.
